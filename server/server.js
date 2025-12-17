@@ -20,7 +20,9 @@ const PORT = process.env.PORT || 5000;
 // ======================================
 
 // Enable CORS for all requests
-app.use(cors());
+app.use(cors(
+    origin: "https://client-sowd.onrender.com"
+));
 
 // Parse incoming JSON payloads (required for handling requests)
 app.use(express.json());
