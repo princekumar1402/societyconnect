@@ -1,0 +1,61 @@
+# This ignores the node_modules in all subfolders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# This ignores the .env files in all subfolders
+.env
+client/.env
+server/.env
+
+# Ignore build files
+dist/
+client/dist/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.env
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files (Very Important!)
+.env
+client/.env
+server/.env
+
+# Build outputs
+dist/
+client/dist/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
